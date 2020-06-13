@@ -2,12 +2,12 @@
 
 ### Task-uri:
 
-- sa se implmenteze o clasa Complex(cu a,b in dubla precizie) care sa perminta urmatoarele operatii:
+Sa se implmenteze o clasa Complex(cu membri a,b de tip _double_) care sa perminta urmatoarele operatii:
+  - definirea operatorul << pentru afisarea numarului in formatul _a + b\*i_
   - adunarea a doua numere complexe
   - scaderea a doua numere complexe
   - inmultirea a doua numere complexe
   - citirea de la tastatura a numarului
-  - afisarea numarului in formatul _a + b\*i_
 
 ### Cerințe preliminare
   - Windows:
