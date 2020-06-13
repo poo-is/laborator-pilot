@@ -1,30 +1,22 @@
-#include <gtest/gtest.h>
-#include "../complex.hpp"
+#include "catch.hpp"
+#include "../src/complex.hpp"
 
-TEST(plus, test_null_plus_something)
+TEST_CASE("Test sum: (0,0) + (1,2) ")
 {
     Complex z1, z2(1, 2);
-    Complex result(1, 2);
-    EXPECT_EQ(z1 + z2, result);
+    Complex result(1, 1);
+    REQUIRE(z1 + z2 == result);
 }
 
-TEST(plus, test_null_plus_null)
+TEST_CASE("Test sum: (0,0) + (0,0) ")
 {
     Complex z1, z2;
     Complex result(0);
-    EXPECT_EQ(z1 + z2, result);
+    REQUIRE(z1 + z2 == result);
 }
 
-TEST(plus, test_smth_plus_smth)
+TEST_CASE("Test sum: (1,3) + (1,2) ")
 {
     Complex z1(1, 3), z2(1, 2);
-    ASSERT_TRUE(z1 + z2 != 0);
-}
-
-
-
-int main(int argc, char **argv)
-{
-    testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
+    REQUIRE(z1 + z2 != 0);
 }

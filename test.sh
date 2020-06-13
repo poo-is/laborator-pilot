@@ -1,0 +1,1 @@
+cd ./tests && g++ *.cpp *.o -o test && ./test

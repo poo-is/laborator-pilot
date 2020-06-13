@@ -1,0 +1,1 @@
+cd ./src && g++ *.cpp -c && mv *.o ./../tests/
