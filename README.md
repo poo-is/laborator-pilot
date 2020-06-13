@@ -1,4 +1,4 @@
-# Cerinta:
+# Task-uri:
 
 - sa se implmenteze o clasa Complex(cu a,b in dubla precizie) care sa perminta urmatoarele operatii:
   - adunarea a doua numere complexe
@@ -15,3 +15,9 @@
     ```bash
     ./test.sh
     ```
+# Cerințe preliminare
+  - Windows:
+    - g++ compiler
+    
+  - Linux:
+    - g++ compiler
