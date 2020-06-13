@@ -1,4 +1,4 @@
-# Laborator Pilot
+<h1 align="center"> Laborator Pilot</h1>
 
 ### Task-uri:
 
