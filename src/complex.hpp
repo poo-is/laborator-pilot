@@ -12,5 +12,7 @@ public:
     Complex operator-(const Complex &z2) const;
     bool operator==(const Complex &z2) const;
     bool operator!=(const Complex &z2) const;
+    Complex operator*(const Complex &z2) const;
     friend std::ostream &operator<<(std::ostream &os, const Complex &z);
+    friend std::istream &operator>>(std::istream &is, Complex &z);
 };
